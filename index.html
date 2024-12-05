@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./main.css"/>
+    <title>Music's Free</title>
+</head>
+<body>
+    <header class="navbar sticky-top navbar-expand-lg">
+            <div class="container">
+                <div class="d-flex align-items-center">
+                    <div class="gif_logo">
+                        <img src="./lib/imagens/headphones-11207_256.gif" alt="gif de um fone de ouvido" title="Musics Free"/>
+                    </div>
+                    <h1 class="display-2">Musics Free</h1>
+               </div>
+            <button type="button" class="navbar-toggler" data-bs-target="#navv" data-bs-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="navv">
+                    <ul class="nav nav-pills navbar navbar-nav d-md-flex">
+                        <li>
+                          <div class="audio_gif">
+                            <img src="./lib/imagens/sound-8825_256.gif" alt="gif de uma onda sonora" title="Musics Free"/>
+                          </div></li>
+                        <li class="nav-item"><a href="" class="nav-link active"><img src="./lib/imagens/home_30dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt="" title="Home"/></a> </li>
+                        <li class="nav-item"><a href="" class="nav-link"> <img src="./lib/imagens/music_cast_30dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt="" title="Mais tocadas"/> </a> </li>
+                        <li class="nav-item"><a href="" class="nav-link"> <img src="./lib/imagens/radio_30dp_000000_FILL0_wght400_GRAD0_opsz24 (1).png" alt="" title="Rádio"/> </a> </li>
+                        <li class="nav-item"><button type="button" class="nav-link btn " data-bs-toggle="modal" data-bs-target="#modal_form"><img src="./lib/imagens/account_circle_30dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt="" title="Conta"/></button> </li>
+                    </ul>
+                </nav>
+            </div>
+    </header>
+
+                <!-- <div class="container-lg mb-5">
+            <div class="font-carousel">
+                <h1 class="display-4 mt-3 mb-5 ">Aproveite para ouvir as musicas <span class="d-block">mais ouvidas do Momento!</span></h1>
+            </div>
+        </div> -->
+            <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="carousel-eletrizante">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="img-carousel d-block w-100" src="./lib/imagens/ai-generated-9127632_1280.jpg" alt="logo animadas de pessoas ouvindo músicas" title=""/>
+                    <div class="carousel-caption">
+                        <h1>Só as melhores Músicas</h1>
+                        <p>E mais tocadas no pais e no mundo!</p>
+                    </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="img-carousel d-block w-100" src="lib/imagens/ai-generated-9092086_1280.jpg" alt="logo animadas de pessoas ouvindo músicas" title=""/>
+                        <div class="carousel-caption">
+                            <h1>Só as melhores Músicas</h1>
+                            <p>E mais tocadas no pais e no mundo!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="img-carousel d-block w-100" src="/lib/imagens/ai-generated-9127134_1280.jpg" alt="logo animadas de pessoas ouvindo músicas" title=""/>
+                        <div class="carousel-caption">
+                            <h1>Só as melhores Músicas</h1>
+                            <p>E mais tocadas no pais e no mundo!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="img-carousel d-block w-100" src="lib/imagens/ai-generated-8703565_1280.png" alt="logo animadas de pessoas ouvindo músicas" title=""/>
+                        <div class="carousel-caption">
+                            <h1>Só as melhores Músicas</h1>
+                            <p>E mais tocadas no pais e no mundo!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="img-carousel d-block w-100" src="lib/imagens/ai-generated-9095931_1280.jpg" alt="logo animadas de pessoas ouvindo músicas" title=""/>  
+                        <div class="carousel-caption">
+                            <h1>Só as melhores Músicas</h1>
+                            <p>E mais tocadas no pais e no mundo!</p>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-target="#carousel-eletrizante" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-target="#carousel-eletrizante" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-eletrizante" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel-eletrizante" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel-eletrizante" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel-eletrizante" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#carousel-eletrizante" data-bs-slide-to="4"></button>
+                </div>
+            </div>
+    <section>
+                <div class="modal fade" id="modal_form" data-bs-backdrop="static">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title">Entrar na sua Conta</h1>
+                                <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <label class="form-label" for="nomee">Nome</label>
+                                      <input type="text" class="form-control" placeholder="insira o seu nome" id="nomee"/>
+                                    <label class="form-label" for="emaill">Email</label>
+                                      <input type="email" class="form-control" placeholder="Insira o seu Email principal" id="emaill"/>
+                                    <label class="form-label" for="tell">Telefone</label>
+                                      <input type="tel" class="form-control" placeholder="Tel...(Opicional)" id="tell"/>
+                                    <div class="form-check form-switch">
+                                        <input type="checkbox" class="form-check-input" id="checking"/>
+                                        <label class="form-check-label" for="checking">Declaro que aceito os <a href="">Termos</a> do site ao abrir uma minha conta na <code>Musics Free</code></label>
+                                    </div>
+                                    <button type="button" class="btn btn-outline-success form-control" data-bs-dismiss="modal">Enviar</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <section class="Musicas-top-do-ano">
+        <div class="container">
+            <h2 class="h2 text-decoration-underline"> Músicas top 2025 2*semestre</h2>
+            <div class="row">
+                <div class="col-sm-6 col-lg-3 mb-5">
+                    <div class="card ">
+                        <img class="card-img" src="https://i1.sndcdn.com/artworks-000307067466-yphp8a-t500x500.jpg" alt="imagem ilustrativa de cantores"/>
+                        <div class="card-body">
+                            <strong class="card-title">Minha Historia</strong>
+                            <p class="card-text" >Jorge e Mathueus ft.Ana Castella.</p>
+                            <div class="audios">
+                                <audio id="musics" autoplay="autoplay" controls="controls">
+                                    <source src="" type="audio/mp3"/>
+                            </div>
+                            </audio>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 mb-5">
+                    <div class="card">
+                        <img class="card-img" src="https://i1.sndcdn.com/artworks-000307067466-yphp8a-t500x500.jpg" alt="imagem ilustrativa de cantores"/>
+                        <div class="card-body">
+                            <strong class="card-title">Minha Historia</strong>
+                            <p class="card-text" >Jorge e Mathueus ft.Ana Castella. .</p>
+                            <div class="audios">
+                                <audio id="musics" autoplay="autoplay" controls="controls">
+                                    <source src="" type="audio/mp3"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 mb-5">
+                    <div class="card">
+                        <img class="card-img" src="https://i1.sndcdn.com/artworks-000307067466-yphp8a-t500x500.jpg" alt="imagem ilustrativa de cantores"/>
+                        <div class="card-body">
+                            <strong class="card-title">Minha Historia</strong>
+                            <p class="card-text" >Jorge e Mathueus ft.Ana Castella.</p>
+                            <div class="audios">
+                                <audio id="musics" autoplay="autoplay" controls="controls">
+                                    <source src="" type="audio/mp3"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 mb-5">
+                    <div class="card">
+                        <img class="card-img" src="https://i1.sndcdn.com/artworks-000307067466-yphp8a-t500x500.jpg" alt="imagem ilustrativa de cantores"/>
+                        <div class="card-body">
+                            <strong class="card-title">Minha Historia</strong>
+                            <p class="card-text" >Jorge e Mathueus ft.Ana Castella.</p>
+                            <div class="audios">
+                                <audio id="musics" autoplay="autoplay" controls="controls">
+                                    <source src="" type="audio/mp3"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 mb-5">
+                    <div class="card">
+                        <img class="card-img" src="https://i1.sndcdn.com/artworks-000307067466-yphp8a-t500x500.jpg" alt="imagem ilustrativa de cantores"/>
+                        <div class="card-body">
+                            <strong class="card-title">Minha Historia</strong>
+                            <p class="card-text" >Jorge e Mathueus ft.Ana Castella.</p>
+                            <div class="audios">
+                                <audio id="musics" autoplay="autoplay" controls="controls">
+                                    <source src="" type="audio/mp3"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 mb-5">
+                    <div class="card">
+                        <img class="card-img" src="https://i1.sndcdn.com/artworks-000307067466-yphp8a-t500x500.jpg" alt="imagem ilustrativa de cantores"/>
+                        <div class="card-body">
+                            <strong class="card-title">Minha Historia</strong>
+                            <p class="card-text" >Jorge e Mathueus ft.Ana Castella.</p>
+                            <div class="audios">
+                                <audio id="musics" autoplay="autoplay" controls="controls">
+                                    <source src="" type="audio/mp3"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 mb-5">
+                    <div class="card">
+                        <img class="card-img" src="https://i1.sndcdn.com/artworks-000307067466-yphp8a-t500x500.jpg" alt="imagem ilustrativa de cantores"/>
+                        <div class="card-body">
+                            <strong class="card-title">Minha Historia</strong>
+                            <p class="card-text" >Jorge e Mathueus ft.Ana Castella.</p>
+                            <div class="audios">
+                                <audio id="musics" autoplay="autoplay" controls="controls">
+                                    <source src="" type="audio/mp3"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 mb-5">
+                    <div class="card">
+                        <img class="card-img" src="https://i1.sndcdn.com/artworks-000307067466-yphp8a-t500x500.jpg" alt="imagem ilustrativa de cantores"/>
+                        <div class="card-body">
+                            <strong class="card-title">Minha Historia</strong>
+                            <p class="card-text" >Jorge e Mathueus ft.Ana Castella.</p>
+                            <div class="audios">
+                                <audio id="musics" autoplay="autoplay" controls="controls">
+                                    <source src="" type="audio/mp3"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Musicas-top-do-ano">
+        <div class="container">
+            <h2 class="h2 text-decoration-underline">As mais Tocadas</h2>
+            <div class="row">
+                <div class="col-sm-6 col-lg-3 mb-5">
+                    <div class="card ">
+                        <img class="card-img" src="https://i1.sndcdn.com/artworks-000307067466-yphp8a-t500x500.jpg" alt="imagem ilustrativa de cantores"/>
+                        <div class="card-body">
+                            <strong class="card-title">Minha Historia</strong>
+                            <p class="card-text" >Jorge e Mathueus ft.Ana Castella.</p>
+                            <div class="audios">
+                                <audio id="musics" autoplay="autoplay" controls="controls">
+                                    <source src="" type="audio/mp3"/>
+                            </div>
+                            </audio>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 mb-5">
+                    <div class="card">
+                        <img class="card-img" src="https://i1.sndcdn.com/artworks-000307067466-yphp8a-t500x500.jpg" alt="imagem ilustrativa de cantores"/>
+                        <div class="card-body">
+                            <strong class="card-title">Minha Historia</strong>
+                            <p class="card-text" >Jorge e Mathueus ft.Ana Castella. .</p>
+                            <div class="audios">
+                                <audio id="musics" autoplay="autoplay" controls="controls">
+                                    <source src="" type="audio/mp3"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 mb-5">
+                    <div class="card">
+                        <img class="card-img" src="https://i1.sndcdn.com/artworks-000307067466-yphp8a-t500x500.jpg" alt="imagem ilustrativa de cantores"/>
+                        <div class="card-body">
+                            <strong class="card-title">Minha Historia</strong>
+                            <p class="card-text" >Jorge e Mathueus ft.Ana Castella.</p>
+                            <div class="audios">
+                                <audio id="musics" autoplay="autoplay" controls="controls">
+                                    <source src="" type="audio/mp3"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 mb-5">
+                    <div class="card">
+                        <img class="card-img" src="https://i1.sndcdn.com/artworks-000307067466-yphp8a-t500x500.jpg" alt="imagem ilustrativa de cantores"/>
+                        <div class="card-body">
+                            <strong class="card-title">Minha Historia</strong>
+                            <p class="card-text" >Jorge e Mathueus ft.Ana Castella.</p>
+                            <div class="audios">
+                                <audio id="musics" autoplay="autoplay" controls="controls">
+                                    <source src="" type="audio/mp3"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 mb-5">
+                    <div class="card">
+                        <img class="card-img" src="https://i1.sndcdn.com/artworks-000307067466-yphp8a-t500x500.jpg" alt="imagem ilustrativa de cantores"/>
+                        <div class="card-body">
+                            <strong class="card-title">Minha Historia</strong>
+                            <p class="card-text" >Jorge e Mathueus ft.Ana Castella.</p>
+                            <div class="audios">
+                                <audio id="musics" autoplay="autoplay" controls="controls">
+                                    <source src="" type="audio/mp3"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 mb-5">
+                    <div class="card">
+                        <img class="card-img" src="https://i1.sndcdn.com/artworks-000307067466-yphp8a-t500x500.jpg" alt="imagem ilustrativa de cantores"/>
+                        <div class="card-body">
+                            <strong class="card-title">Minha Historia</strong>
+                            <p class="card-text" >Jorge e Mathueus ft.Ana Castella.</p>
+                            <div class="audios">
+                                <audio id="musics" autoplay="autoplay" controls="controls">
+                                    <source src="" type="audio/mp3"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 mb-5">
+                    <div class="card">
+                        <img class="card-img" src="https://i1.sndcdn.com/artworks-000307067466-yphp8a-t500x500.jpg" alt="imagem ilustrativa de cantores"/>
+                        <div class="card-body">
+                            <strong class="card-title">Minha Historia</strong>
+                            <p class="card-text" >Jorge e Mathueus ft.Ana Castella.</p>
+                            <div class="audios">
+                                <audio id="musics" autoplay="autoplay" controls="controls">
+                                    <source src="" type="audio/mp3"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 mb-5">
+                    <div class="card">
+                        <img class="card-img" src="https://i1.sndcdn.com/artworks-000307067466-yphp8a-t500x500.jpg" alt="imagem ilustrativa de cantores"/>
+                        <div class="card-body">
+                            <strong class="card-title">Minha Historia</strong>
+                            <p class="card-text" >Jorge e Mathueus ft.Ana Castella.</p>
+                            <div class="audios">
+                                <audio id="musics" autoplay="autoplay" controls="controls">
+                                    <source src="" type="audio/mp3"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Musicas-top-do-ano">
+        <div class="container">
+            <h2 class="h2 text-decoration-underline"> Melhores músicas de 2025</h2>
+            <div class="row">
+                <div class="col-sm-6 col-lg-3 mb-5">
+                    <div class="card ">
+                        <img class="card-img" src="https://i1.sndcdn.com/artworks-000307067466-yphp8a-t500x500.jpg" alt="imagem ilustrativa de cantores"/>
+                        <div class="card-body">
+                            <strong class="card-title">Minha Historia</strong>
+                            <p class="card-text" >Jorge e Mathueus ft.Ana Castella.</p>
+                            <div class="audios">
+                                <audio id="musics" autoplay="autoplay" controls="controls">
+                                    <source src="" type="audio/mp3"/>
+                            </div>
+                            </audio>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 mb-5">
+                    <div class="card">
+                        <img class="card-img" src="https://i1.sndcdn.com/artworks-000307067466-yphp8a-t500x500.jpg" alt="imagem ilustrativa de cantores"/>
+                        <div class="card-body">
+                            <strong class="card-title">Minha Historia</strong>
+                            <p class="card-text" >Jorge e Mathueus ft.Ana Castella. .</p>
+                            <div class="audios">
+                                <audio id="musics" autoplay="autoplay" controls="controls">
+                                    <source src="" type="audio/mp3"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 mb-5">
+                    <div class="card">
+                        <img class="card-img" src="https://i1.sndcdn.com/artworks-000307067466-yphp8a-t500x500.jpg" alt="imagem ilustrativa de cantores"/>
+                        <div class="card-body">
+                            <strong class="card-title">Minha Historia</strong>
+                            <p class="card-text" >Jorge e Mathueus ft.Ana Castella.</p>
+                            <div class="audios">
+                                <audio id="musics" autoplay="autoplay" controls="controls">
+                                    <source src="" type="audio/mp3"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 mb-5">
+                    <div class="card">
+                        <img class="card-img" src="https://i1.sndcdn.com/artworks-000307067466-yphp8a-t500x500.jpg" alt="imagem ilustrativa de cantores"/>
+                        <div class="card-body">
+                            <strong class="card-title">Minha Historia</strong>
+                            <p class="card-text" >Jorge e Mathueus ft.Ana Castella.</p>
+                            <div class="audios">
+                                <audio id="musics" autoplay="autoplay" controls="controls">
+                                    <source src="" type="audio/mp3"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 mb-5">
+                    <div class="card">
+                        <img class="card-img" src="https://i1.sndcdn.com/artworks-000307067466-yphp8a-t500x500.jpg" alt="imagem ilustrativa de cantores"/>
+                        <div class="card-body">
+                            <strong class="card-title">Minha Historia</strong>
+                            <p class="card-text" >Jorge e Mathueus ft.Ana Castella.</p>
+                            <div class="audios">
+                                <audio id="musics" autoplay="autoplay" controls="controls">
+                                    <source src="" type="audio/mp3"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 mb-5">
+                    <div class="card">
+                        <img class="card-img" src="https://i1.sndcdn.com/artworks-000307067466-yphp8a-t500x500.jpg" alt="imagem ilustrativa de cantores"/>
+                        <div class="card-body">
+                            <strong class="card-title">Minha Historia</strong>
+                            <p class="card-text" >Jorge e Mathueus ft.Ana Castella.</p>
+                            <div class="audios">
+                                <audio id="musics" autoplay="autoplay" controls="controls">
+                                    <source src="" type="audio/mp3"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 mb-5">
+                    <div class="card">
+                        <img class="card-img" src="https://i1.sndcdn.com/artworks-000307067466-yphp8a-t500x500.jpg" alt="imagem ilustrativa de cantores"/>
+                        <div class="card-body">
+                            <strong class="card-title">Minha Historia</strong>
+                            <p class="card-text" >Jorge e Mathueus ft.Ana Castella.</p>
+                            <div class="audios">
+                                <audio id="musics" autoplay="autoplay" controls="controls">
+                                    <source src="" type="audio/mp3"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 mb-5">
+                    <div class="card">
+                        <img class="card-img" src="https://i1.sndcdn.com/artworks-000307067466-yphp8a-t500x500.jpg" alt="imagem ilustrativa de cantores"/>
+                        <div class="card-body">
+                            <strong class="card-title">Minha Historia</strong>
+                            <p class="card-text" >Jorge e Mathueus ft.Ana Castella.</p>
+                            <div class="audios">
+                                <audio id="musics" autoplay="autoplay" controls="controls">
+                                    <source src="" type="audio/mp3"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="d-flex justify-content-center">
+        <p class="text-decoration-underline "> &copy;Music's Free 2018 - - Todos os direitos Reservados.</p>
+    </footer>
+    
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+    <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script>
+     $(document).ready(function(){
+        $(".slickCards").slick({
+            autoplay:true,
+            arrows:false,
+            slidesToScroll:2,
+            slidesToShow:5,
+            // arrows:false
+        })
+         let largura = window.screen.width;
+        alert("A largura do container é de "+largura+"px")
+
+        function carouselResponsivo(){
+            if(window.screen.width <=767){
+                $(".slickCards").slick({
+            autoplay:true,
+            arrows:false,
+            slidesToShow:1,
+            // arrows:false
+        })
+            }
+        }
+     }) -->
+    </script>
+</body>
+</html>

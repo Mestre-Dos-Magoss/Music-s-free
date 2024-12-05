@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(76, 63, 63);
+}
+header{
+    background-color:rgb(127, 74, 141);
+}
+
+.nav-link img{
+    height:50px;
+}
+ 
+.audio_gif img{
+   height:80px;
+}
+
+.gif_logo{
+    width:10px;
+
+}
+.gif_logo img{
+    height:100px;
+}
+
+.display-2{
+    color:rgb(36, 132, 197);
+}
+form>label{
+    font-style:italic;
+    font-weight:bold;
+}
+span{
+    margin-left:50px;
+    font-weight:400;
+}
+.carousel img{
+    height:70vh;
+}
+
+.Musicas-top-do-ano .col>.card:hover{
+    width:220px;
+    height:372px;
+}
+.card{
+    margin-right:0.2%;
+    margin-left:0.2%;
+}
+
+.card-title{
+    font-size:22px;
+    font-style: italic;
+}
+
+.audios{
+    margin-left:0;
+}
+
+#musics{
+    width:180px;
+    height: 30px;
+}
+
+section{
+    margin-top:5vh;
+    margin-bottom:7vh;
+}
+ .container>h2{
+    color: rgb(157, 147, 84);
+    margin-bottom:20px;
+}
+
+footer{
+    padding:5px;
+    background-color:chocolate;
+    font-size: 25px;
+}
+
+@media screen and (max-width:767px){
+    .carousel img{
+        height:50vh;
+    }
+
+    footer{
+        padding:5px;
+        background-color:chocolate;
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+    .carousel img{
+        height:50vh;
+    }
+}
+
+
+
+
